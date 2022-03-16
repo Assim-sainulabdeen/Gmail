@@ -1,21 +1,62 @@
-*{
-
-}
-
 
 
 body{
-	margin:0;
-	padding:0;
+	border:0px;
+	margin:0px;
+	font-family: arial,sans-serif;
 }
+
 
 .container{
-	width: 100%;
-	border: 1px solid red;
-
+	width:100%;
+	border: 1px solid red;		
 }
 
-.row{
-	border:  1px solid blue;
-	width:19%;
+.row{	
+	border:2px solid yellow;
+	padding: 8px;
+	
 }
+.col{
+	border: 1px solid blue;
+	width: 18%;
+	padding-right: 30px;
+	
+		
+}
+
+.bar{
+	border: 1px solid violet;
+	width: 8%;
+	padding: 12px;
+	margin:0px  4px 0px;
+	display:inline-block;
+	float:left;
+	clear:both;;
+}
+
+.fa-bars{
+	font-size: 16px;
+	color: #5f6368;
+	display:inline-block;
+}
+
+.gmail-logo{
+	border: 1px solid green;
+	width: 50%;
+	display:inline-block;
+	background: url("../assets/icons/logo.png") no-repeat left center;
+	background-size: 32px;
+	
+	
+	
+}
+
+h1{
+	float: right;
+	color: #5f6368;
+	margin:4px 4px;
+	font-size: 24px;
+	clear: both;
+}
+
