@@ -9,54 +9,153 @@ body{
 
 .container{
 	width:100%;
-	border: 1px solid red;		
+	border: 1px solid red;
+	float : left;	
 }
 
+
+
+
+		/* top section */
+
+
 .row{	
+	width: 100%;
+	float: left;
 	border:2px solid yellow;
-	padding: 8px;
-	
+	padding: 8px;	
 }
-.col{
-	border: 1px solid blue;
-	width: 18%;
-	padding-right: 30px;
-	
-		
-}
+
 
 .bar{
 	border: 1px solid violet;
-	width: 8%;
+	width: 1%;
 	padding: 12px;
 	margin:0px  4px 0px;
-	display:inline-block;
 	float:left;
-	clear:both;;
 }
 
 .fa-bars{
 	font-size: 16px;
 	color: #5f6368;
-	display:inline-block;
 }
 
 .gmail-logo{
 	border: 1px solid green;
-	width: 50%;
-	display:inline-block;
+	width: 15%;
 	background: url("../assets/icons/logo.png") no-repeat left center;
-	background-size: 32px;
-	
-	
-	
+	background-size: 36px;
+	margin:4px auto auto 4px;
+	float:left;	
 }
 
 h1{
-	float: right;
+	float: left;
 	color: #5f6368;
-	margin:4px 4px;
+	margin:4px 0px 4px 50px;
 	font-size: 24px;
-	clear: both;
+
+}
+
+.input{
+	width: 57%;
+	display: inline-block;
+	border: 1px solid blue;
+	float:left;
+}
+
+.search{
+	float: left;
+	padding: 14px 36px;
+	width: 72%;
+	font-size: 14px;
+	margin-left: 2px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 1px 2px;
+	background: url("../assets/icons/search.png") no-repeat left center, url("../assets/icons/tune.png") no-repeat right center;
+	background-size: 20px;
+	background-position-x: 1% , 97%;
+}
+
+.active{
+	padding: 8px;
+	border-radius:16px;
+	margin:5px 0px 0px 30px;
+	border: 1px solid #5f6368;	
+}
+
+.fa-circle{
+	color: green;
+	margin-right: 3px;
+	margin-left:8px;
+}
+.fa-caret-down{
+	margin-left: 3px;
+	margin-right: 8px;
+}
+
+.right-icons{
+	float: left;
+	border: 1px solid red;
+	width: 23%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/* Navigation left */
+
+.nav-left{
+	clear:both;
+	border: 1px solid green;
+	width: 19.5%;
+	margin: 0 auto;
+	float:left;
+
+}
+
+
+		/* Middle container */
+
+.center{
+	width: 75%;
+	border: 1px solid brown;
+	float: left;
+}
+
+
+	/* Navigation right */
+
+
+.nav-right{
+	float: left;
+	border: 1px solid grey;
+	width: 4.5%;
 }
 
