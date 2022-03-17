@@ -9,7 +9,6 @@ body{
 
 .container{
 	width:100%;
-	border: 1px solid red;
 	float : left;	
 }
 
@@ -22,8 +21,7 @@ body{
 .row{	
 	width: 100%;
 	float: left;
-	border:2px solid yellow;
-	padding: 8px;	
+	padding:8px 0px;	
 }
 
 
@@ -58,7 +56,8 @@ h1{
 }
 
 .input{
-	width: 57%;
+	width: 63%;
+	margin-top: 5px;
 	display: inline-block;
 	border: 1px solid blue;
 	float:left;
@@ -67,7 +66,7 @@ h1{
 .search{
 	float: left;
 	padding: 14px 36px;
-	width: 72%;
+	width: 75%;
 	font-size: 14px;
 	margin-left: 2px;
 	border-radius: 5px;
@@ -81,7 +80,7 @@ h1{
 .active{
 	padding: 8px;
 	border-radius:16px;
-	margin:5px 0px 0px 30px;
+	margin:5px 0px 0px 20px;
 	border: 1px solid #5f6368;	
 }
 
@@ -98,7 +97,23 @@ h1{
 .right-icons{
 	float: left;
 	border: 1px solid red;
-	width: 23%;
+	padding: 10px;
+	width: 15%;
+	margin: 4px 0px 0px 5px;
+	background: url("../assets/icons/settings.png") left center no-repeat, url("../assets/icons/help.png") center center no-repeat, 
+			url("../assets/icons/dots-	menu.png") no-repeat right center;
+	background-size: 24px, 24px, 20px;
+	background-position-x:0, 24%, 48%; 	
+}
+
+.circle{
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	float: right;
+	border-radius: 50%;
+	padding: 8px 12px;
+	background-color: #AD8B73;
+	color: #fff;
+
 }
 
 
@@ -141,10 +156,11 @@ h1{
 }
 
 
+
 		/* Middle container */
 
 .center{
-	width: 75%;
+	width: 74%;
 	border: 1px solid brown;
 	float: left;
 }
@@ -158,4 +174,6 @@ h1{
 	border: 1px solid grey;
 	width: 4.5%;
 }
+
+
 
