@@ -1,179 +1,172 @@
-
-
-body{
-	border:0px;
-	margin:0px;
-	font-family: arial,sans-serif;
+body {
+  border: 0px;
+  margin: 0px;
+  font-family: arial, sans-serif;
 }
 
-
-.container{
-	width:100%;
-	float : left;	
+.container {
+  width: 100%;
+  float: left;
 }
 
+/* top section */
 
-
-
-		/* top section */
-
-
-.row{	
-	width: 100%;
-	float: left;
-	padding:8px 0px;	
+.row {
+  width: 100%;
+  float: left;
+  padding: 8px 0px;
 }
 
-
-.bar{
-	border: 1px solid violet;
-	width: 1%;
-	padding: 12px;
-	margin:0px  4px 0px;
-	float:left;
+.bar {
+  width: 1%;
+  padding: 12px;
+  margin: 0px 12px;
+  float: left;
 }
 
-.fa-bars{
-	font-size: 16px;
-	color: #5f6368;
+.fa-bars {
+  font-size: 16px;
+  color: #5f6368;
 }
 
-.gmail-logo{
-	border: 1px solid green;
-	width: 15%;
-	background: url("../assets/icons/logo.png") no-repeat left center;
-	background-size: 36px;
-	margin:4px auto auto 4px;
-	float:left;	
+.gmail-logo {
+  width: 15%;
+  background: url("../assets/icons/logo.png") no-repeat left center;
+  background-size: 36px;
+  margin: 8px auto auto 4px;
+  float: left;
 }
 
-h1{
-	float: left;
-	color: #5f6368;
-	margin:4px 0px 4px 50px;
-	font-size: 24px;
-
+h1 {
+  float: left;
+  color: #5f6368;
+  margin: 4px 0px 4px 50px;
+  font-size: 24px;
 }
 
-.input{
-	width: 63%;
-	margin-top: 5px;
-	display: inline-block;
-	border: 1px solid blue;
-	float:left;
+.input {
+  width: 63%;
+  float: left;
+  margin-top: 5px;
 }
 
-.search{
-	float: left;
-	padding: 14px 36px;
-	width: 75%;
-	font-size: 14px;
-	margin-left: 2px;
-	border-radius: 5px;
-	border: none;
-	box-shadow: 0px 1px 2px;
-	background: url("../assets/icons/search.png") no-repeat left center, url("../assets/icons/tune.png") no-repeat right center;
-	background-size: 20px;
-	background-position-x: 1% , 97%;
+.search {
+  float: left;
+  padding: 18px 36px 14px 40px;
+  width: 75%;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-left: 2px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px 2px;
+  background: url("../assets/icons/search.png") no-repeat left center,
+    url("../assets/icons/tune.png") no-repeat right center;
+  background-size: 20px;
+  background-position-x: 1%, 97%;
+  background-color: #eeeeee;
 }
 
-.active{
-	padding: 8px;
-	border-radius:16px;
-	margin:5px 0px 0px 20px;
-	border: 1px solid #5f6368;	
+.active {
+  padding: 8px;
+  border-radius: 16px;
+  margin: 5px 0px 0px 20px;
+  border: 1px solid #5f6368;
 }
 
-.fa-circle{
-	color: green;
-	margin-right: 3px;
-	margin-left:8px;
+.fa-circle {
+  color: green;
+  margin-right: 3px;
+  margin-left: 8px;
 }
-.fa-caret-down{
-	margin-left: 3px;
-	margin-right: 8px;
-}
-
-.right-icons{
-	float: left;
-	border: 1px solid red;
-	padding: 10px;
-	width: 15%;
-	margin: 4px 0px 0px 5px;
-	background: url("../assets/icons/settings.png") left center no-repeat, url("../assets/icons/help.png") center center no-repeat, 
-			url("../assets/icons/dots-	menu.png") no-repeat right center;
-	background-size: 24px, 24px, 20px;
-	background-position-x:0, 24%, 48%; 	
+.fa-caret-down {
+  margin-left: 3px;
+  margin-right: 8px;
 }
 
-.circle{
-	border: 1px solid rgba(0, 0, 0, 0.5);
-	float: right;
-	border-radius: 50%;
-	padding: 8px 12px;
-	background-color: #AD8B73;
-	color: #fff;
-
+.right-icons {
+  float: left;
+  padding: 4px;
+  width: 14%;
+  margin: 4px 0px 0px 25px;
+  background: url("../assets/icons/settings.png") left center no-repeat,
+    url("../assets/icons/help.png") center center no-repeat,
+    url("../assets/icons/dots-	menu.png") no-repeat right center;
+  background-size: 24px, 24px, 20px;
+  background-position-x: 2%, 30%, 58%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		/* Navigation left */
-
-.nav-left{
-	clear:both;
-	border: 1px solid green;
-	width: 19.5%;
-	margin: 0 auto;
-	float:left;
-
+.circle {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  float: right;
+  border-radius: 50%;
+  padding: 8px 12px;
+  background-color: #ad8b73;
+  color: #fff;
 }
 
+hr {
+  margin-bottom: 10px;
+  color: #eeeeee;
+  opacity: 0.1;
+}
+/* Navigation left */
 
-
-		/* Middle container */
-
-.center{
-	width: 74%;
-	border: 1px solid brown;
-	float: left;
+.nav-left {
+  clear: both;
+  width: 20%;
+  margin: 0 auto;
+  float: left;
 }
 
-
-	/* Navigation right */
-
-
-.nav-right{
-	float: left;
-	border: 1px solid grey;
-	width: 4.5%;
+.compose {
+  color: #d93025;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 24px;
+  margin: 18px 0px 18px 5px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  box-shadow: #d1d1d1;
+}
+.fa-pencil {
+  background-color: white;
+  padding-right: 10px;
 }
 
+.shortcuts {
+  padding: 8px 4px;
+  margin-left: 5px;
+}
 
+.functions {
+  margin-top: 25px;
+}
 
+.fa-caret-right {
+  padding-right: 10px;
+}
+
+.fa-plus {
+  margin-left: 150px;
+  color: #5f6368;
+}
+
+.custom {
+  margin-left: 162px;
+}
+
+/* Middle container */
+
+.center {
+  width: 75%;
+  float: left;
+}
+
+/* Navigation right */
+
+.nav-right {
+  float: left;
+  width: 5%;
+}
